@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanLeave.Infrastructure",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanLeave.Web", "src\CleanLeave.Web\CleanLeave.Web.csproj", "{851C3E27-FA03-4F97-A35C-FF8EFD24FEA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanLeave.Domain.Tests", "tests\CleanLeave.Domain.Tests\CleanLeave.Domain.Tests.csproj", "{FDE4B42A-FC1C-4E34-A1FC-B208B2BB6234}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{851C3E27-FA03-4F97-A35C-FF8EFD24FEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851C3E27-FA03-4F97-A35C-FF8EFD24FEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851C3E27-FA03-4F97-A35C-FF8EFD24FEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDE4B42A-FC1C-4E34-A1FC-B208B2BB6234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDE4B42A-FC1C-4E34-A1FC-B208B2BB6234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDE4B42A-FC1C-4E34-A1FC-B208B2BB6234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDE4B42A-FC1C-4E34-A1FC-B208B2BB6234}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
