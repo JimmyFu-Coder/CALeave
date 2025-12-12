@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\CleanLeave.Application\CleanLeave.Application.csproj" />
+      <ProjectReference Include="..\CleanLeave.Infrastructure\CleanLeave.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
